@@ -3,10 +3,8 @@ yum install -y httpd php git
 
 cd /var/www/html
 
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/LCandLT/cat1.jpg
-mv cat1.jpg cat.jpg
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/LCandLT/index.php
-mv /var/www/html/htaccess /var/www/html/.htaccess
+wget https://raw.githubusercontent.com/danielschwensen/AWS/master/Hybrid_Scaling/Load_Template/LV2008.jpg
+wget https://raw.githubusercontent.com/danielschwensen/AWS/master/Hybrid_Scaling/Load_Template/index.php
 
 sudo systemctl start httpd
 sudo systemctl enable httpd
