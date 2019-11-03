@@ -4,7 +4,9 @@ yum install -y httpd php git
 cd /var/www/html
 
 wget https://raw.githubusercontent.com/danielschwensen/AWS/master/Hybrid_Scaling/Load_Template/CO2011.jpg
+mv CO2011.jpg image.jpg
 wget https://raw.githubusercontent.com/danielschwensen/AWS/master/Hybrid_Scaling/Load_Template/index.php
+
 
 sudo systemctl start httpd
 sudo systemctl enable httpd
