@@ -3,9 +3,9 @@ yum install -y httpd php git
 
 cd /var/www/html
 
-wget https://raw.githubusercontent.com/danielschwensen/AWS/master/Hybrid_Scaling/Load_Template/LV2008.jpg
+wget https://raw.githubusercontent.com/danielschwensen/AWS/master/Hybrid_Scaling/ClassicLoadBalancer/LV2008.jpg
 mv LV2008.jpg image.jpg
-wget https://raw.githubusercontent.com/danielschwensen/AWS/master/Hybrid_Scaling/Load_Template/index.php
+wget https://raw.githubusercontent.com/danielschwensen/AWS/master/Hybrid_Scaling/ClassicLoadBalancer/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 sudo systemctl start httpd
