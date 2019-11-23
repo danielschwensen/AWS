@@ -1,3 +1,3 @@
 # AWS
 
-Files can be used or testing purpose.
+Files can be used for testing purpose.
