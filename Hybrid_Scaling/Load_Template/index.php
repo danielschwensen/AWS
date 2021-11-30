@@ -7,8 +7,10 @@
 <IMG SRC="LV2008.jpg" ALT="Las Vegas 2008"><br>
 <?php
 $eip = file_get_contents('http://169.254.169.254/latest/meta-data/public-ipv4');
-$az = file_get_contents('http://169.254.169.254/latest/meta-data/placement/availability-zone');
 echo $eip;
+?>
+<?php
+$az = file_get_contents('http://169.254.169.254/latest/meta-data/placement/availability-zone');
 echo $az;
 ?>
 </center>
