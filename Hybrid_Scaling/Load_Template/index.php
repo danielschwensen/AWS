@@ -9,11 +9,6 @@
 $eip = file_get_contents('http://169.254.169.254/latest/meta-data/public-ipv4');
 echo $eip;
 ?>
-<?php
-$az = file_get_contents('http://169.254.169.254/latest/meta-data/placement/availability-zone');
-echo $az;
-?>
-</center>
 </h1>
 </body>
 </html>
